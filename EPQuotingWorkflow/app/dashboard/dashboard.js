@@ -1,13 +1,18 @@
 ﻿(function () {
     'use strict';
     var controllerId = 'dashboard';
-    angular.module('app').controller(controllerId, ['common', 'datacontext', dashboard]);
-
+  
+    angular.module('app')
+        .controller(controllerId, ['common', 'datacontext', dashboard]);
+    
+    
     function dashboard(common, datacontext) {
         var getLogFn = common.logger.getLogFn;
         var log = getLogFn(controllerId);
 
+        
         var vm = this;
+       
         vm.news = {
             title: 'EP Quote Workflow',
             description: 'EP Quote Workflow is awesome.'
