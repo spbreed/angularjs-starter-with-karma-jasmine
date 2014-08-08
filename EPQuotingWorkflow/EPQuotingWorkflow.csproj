@@ -101,6 +101,7 @@
     <Content Include="app\layout\widgetheader.html" />
     <Content Include="app\services\datacontext.js" />
     <Content Include="app\services\directives.js" />
+    <Content Include="app\test\units.html" />
     <Content Include="app\test\unit\controller-tests\dashboard.Spec.js" />
     <Content Include="app\test\unit\service-tests\datacontext.Spec.js" />
     <Content Include="Content\bootstrap-theme.css" />

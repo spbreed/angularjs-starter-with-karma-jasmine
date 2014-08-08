@@ -6,10 +6,10 @@
         .controller(controllerId, ['common', 'datacontext', dashboard]);
     
     
+    
     function dashboard(common, datacontext) {
         var getLogFn = common.logger.getLogFn;
         var log = getLogFn(controllerId);
-
         
         var vm = this;
        
